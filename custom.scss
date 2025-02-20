@@ -1,0 +1,168 @@
+/*-- scss:defaults --*/
+// Cores principais
+$ultra-violet: #6C6EA0;
+$ultra-violet-light: #E8E9F3; // Cor clara para o fundo
+$ultra-violet-dark: #353866;  // Cor mais escura para o header
+$night: #0A0F0D;
+$french-gray: #C1CAD6;
+$white: #FFFFFF;
+
+// Definições de variáveis do tema
+$primary: $ultra-violet;
+$secondary: $french-gray;
+$body-bg: $ultra-violet-light;
+$body-color: $night;
+$navbar-bg: $night;
+$navbar-color: $white;
+$navbar-fg: $white;
+$navbar-hl: $french-gray;
+$link-color: $ultra-violet;
+
+// Removendo backgrounds e containers
+$container-bg: transparent;
+$page-bg: transparent;
+$sidebar-bg: transparent;
+$navbar-bg: $night;
+$footer-bg: transparent;
+ 
+/*-- scss:rules --*/
+// Removendo qualquer background do container principal
+#quarto-content,
+.page-columns,
+.content-block {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.project-grid {
+  display: grid;
+  gap: 2rem;
+
+
+  
+  padding: 2rem 0;
+}
+
+.project-card {
+  background: transparent;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: none;
+  transition: all 0.3s ease;
+  border: 1px solid rgba($ultra-violet, 0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba($night, 0.1);
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background: $french-gray;
+  padding: 0.2rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: $night;
+}
+
+.difficulty-badge {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  background: $french-gray;
+  color: $night;
+}
+
+.time-estimate {
+  font-size: 0.9rem;
+  color: #666;
+  margin-left: 0.5rem;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+  background-color: $ultra-violet-dark !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  
+  .navbar-nav {
+    gap: 1.5rem;
+  }
+  
+  .nav-link {
+    color: $white !important;
+    font-weight: 500;
+    padding: 0.5rem;
+    transition: all 0.2s ease;
+    background: transparent;
+    border: none;
+    
+    &:hover {
+      color: rgba($white, 0.8) !important;
+      transform: translateY(-1px);
+    }
+  }
+  
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: $white !important;
+  }
+  
+  // Ícones sociais
+  .bi {
+    font-size: 1.2rem;
+  }
+}
+
+.navbar-dark {
+  background-color: $ultra-violet-dark !important;
+}
+
+.btn-primary {
+  background-color: $ultra-violet;
+  border: none;
+  color: $white;
+  
+  &:hover {
+    background-color: darken($ultra-violet, 10%);
+  }
+}
+
+// Ajuste para os ícones sociais
+.navbar-nav-scroll {
+  .nav-link {
+    padding: 0.5rem;
+    
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+  
+  .bi {
+    font-size: 1.2rem;
+  }
+}
+
+// Removendo estilos especiais do Lattes
+.navbar .nav-link:last-child {
+  font-weight: 500;
+  padding: 0.5rem;
+  margin-left: 0;
+  border: none;
+  border-radius: 0;
+  
+  &:hover {
+    background: transparent;
+    color: rgba($white, 0.8) !important;
+  }
+}

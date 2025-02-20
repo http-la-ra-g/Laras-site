@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  search: false
+  title: " "
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Sobre
+        href: about.qmd
+      - text: Projetos
+        href: projects.qmd
+      - text: Currículo
+        href: files/curriculo_lara.pdf
+    right:
+      - icon: github
+        href: https://github.com/http-la-ra-g
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/lara-gualberto-5548b1215/
+        aria-label: LinkedIn
+      - icon: envelope-fill
+        href: mailto:larargualberto@hotmail.com
+        aria-label: Email
+      - text: Lattes
+        href: https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K2704885A5&tokenCaptchar=03AFcWeA70JahvvJFNmyLDt5RTubXvMsfc4j_GoQK27vdvbDQOk27LGTFvdBy6ta3pht-PANjNCWv5dO_v-mXKCNCiA3r4Stenu7W5FDGwUkXVNbExTvc12TRtxjSparhlldRBDroCPM7Kom_CB3V6ufMlH4alBDwP6LYYPIEIS08G9dIuaMhKLBFsjyF6Vf9jhs42jjC2gRnsCR9CpSlrCySpu-_2CnQ3olmUyDYwKWKy4LlOiSQO3lOqzawjFEhgdn4U5nn5HiBMrK3peEbA--YHXrsznVLhAmY0FHb0kDsAd9GNP-2OcXKZrUKzYGE924FMDNprReEOTr85bAPY4tgDAO4yRNAX2TNJYGW6eVuojrzRlT6PUmprETGZMUQ4p8qZcUDD3Mx9Jb4ArOdiY-eHnK7f6M3BfnsdnFvnYC6BKtLuJ8xIVSmattbkiksalmOK0JcSFVIKo5cqKKaI_Z2XOCidavrCFxLXOYkiPQm8xw4v_y0JBJqlD189ADGnn5rUQI41xr9esJmBUsf22WJzPXPk7OyP_RSp3b6ArENsiC8PccPVLqNmwK0zXY50VwnfSbJUmGzm68wEuhd1z3ozo1ItWIh0mdQYSN80l6NMCVcGXYkGFeKqw_YFbIfcR-XP-k9HkP-djrRug7DyvFwEphUmR7nUAb-usRJjS-pUyinY7Uw-bErF8a2YF-PzdUSHUPzamSGy4mi8SmpgCHG_s_XScDyn6s5GpBAMkkL-pjbiGcIiGHK2Dyf28p4lKivV3GpbUI1BjPGGWjMkwT4VHLGEIoQ9KdlyoUNXSiO2habGK0-EdZoUmG7pz7Ykb9K-Lt9R2t9KtdLKdNneE7eLbJU6qg5GPZP7e3QwrzXzHifUI7LsNU9Pyi2CSHcPGgUFMUNBVyn8DCQ-YRyc-zXc9viZj3ihFiLXeC5LHrzdsD8wSlv_-SHbm20XNEx5fUoMWJgSiFf1eoX2fiZMVNMrDj10MEDJhoH4X_ntM3nECqxUJr__hLZwWOisRXe8HRkz17EyJW9z
+  body-footer: 
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-row">
+            <div class="footer-left">© 2024 Lara Reis Gualberto</div>
+            <div class="footer-right">
+              Feito com 
+              <span class="heart">♥</span> 
+              usando 
+              <a href="https://quarto.org" target="_blank">Quarto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: false
+    page-layout: full
+
+
+

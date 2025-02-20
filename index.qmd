@@ -1,0 +1,26 @@
+---
+title: " "
+page-layout: full
+---
+
+::: {.column-page .home-page}
+
+::: {.hero-section}
+::: {.hero-content}
+::: {.hero-title}
+Lara Gualberto
+:::
+
+::: {.hero-text}
+Engenheira Florestal, mestranda em Ciências Florestais e graduanda em Estatística. Apaixonada por análise de dados e desenvolvimento de soluções em R para o setor florestal.
+:::
+
+::: {.hero-buttons}
+[👋 SOBRE MIM](about.qmd){.btn .btn-primary .btn-lg role="button"}
+[👩‍💻 VER PROJETOS](projects.qmd){.btn .btn-primary .btn-lg role="button"}
+[📄 CURRÍCULO](files/curriculo_lara.pdf){.btn .btn-primary .btn-lg role="button"}
+:::
+:::
+:::
+
+:::

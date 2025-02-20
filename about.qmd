@@ -1,0 +1,75 @@
+---
+title: " "
+---
+
+::: {.column-page}
+
+::: {.about-header}
+::: {.grid}
+
+::: {.g-col-7 .header-text}
+
+
+::: {.lead}
+::: {.header-title}
+Olá, eu sou a Lara!
+:::
+Sou uma Engenheira Florestal apaixonada por dados e tecnologia, atualmente expandindo meus horizontes na interseção entre ciências florestais e estatística.
+:::
+:::
+
+::: {.g-col-5 .header-image}
+![](images/1730503479147.jpeg){.rounded-circle}
+:::
+
+:::
+:::
+
+::: {.grid}
+
+::: {.g-col-7}
+## Minha Trajetória
+
+Minha jornada começou na Engenharia Florestal em 2018, onde descobri minha paixão por economia e manejo florestal. Atualmente, estou cursando mestrado em Ciências Florestais, com foco em economia florestal, além de ser graduanda em Estatística, ambos pela Universidade Federal de Lavras (UFLA).
+
+Esta combinação de formações me permite desenvolver uma perspectiva diferenciada na análise de dados, unindo o conhecimento técnico do setor com metodologias estatísticas robustas.
+
+## Áreas de Interesse
+
+- Economia Florestal
+- Manejo Florestal
+- Análise de Dados
+- Pesquisa Acadêmica
+- Desenvolvimento de Aplicações Shiny
+- Teoria de Opções Reais
+:::
+
+::: {.g-col-5}
+## Formação Acadêmica
+
+::: {.timeline}
+### Mestrado em Ciências Florestais
+Em andamento  
+Foco: Análise da viabilidade financeira estocástica do cultivo de mogno africano com a metodologia de Opções Reais.
+
+### Graduação em Estatística 
+Em andamento  
+Aprofundamento em métodos estatísticos e análise de dados
+
+### Engenharia Florestal (2018 - 2023)
+Concluído  
+Base sólida em ciências florestais, economia florestal e manejo florestal
+:::
+:::
+:::
+
+::: {.column-page-inset}
+## Comunidade
+
+Sou membro ativo do R-Ladies e PyLadies (capítulo Lavras-MG), uma organização global que promove a diversidade de gênero na comunidade R e Python. Através desta participação, contribuo para tornar a comunidade de programação em R e Python mais inclusiva e acessível.
+:::
+
+:::
+
+
+

@@ -1,0 +1,246 @@
+---
+title: " "
+---
+
+::: {.column-page}
+
+
+::: {.project-grid .grid}
+
+::: {.g-col-4 .project-card}
+::: {.tag-list}
+<span class="tag">R</span>
+<span class="tag">Shiny</span>
+<span class="tag">Análise Financeira</span>
+:::
+
+## Deflator de Séries Históricas
+
+::: {.project-description}
+Aplicativo web para análise de séries temporais de preços, permitindo o deflacionamento dos valores e visualização dos resultados através de gráficos e tabelas. Permite upload de arquivos Excel, seleção do índice de deflação e visualização gráfica dos resultados.
+:::
+
+::: {.features-list}
+- Deflacionamento de valores
+- Visualização gráfica das séries
+- Tabela de resultados interativa
+- Exportação dos dados processados
+- Interface intuitiva e responsiva
+
+:::
+
+::: {.button-container}
+[Ver APP →](https://lara-gualberto.shinyapps.io/deflao/){.btn .btn-primary}
+[Código →](https://github.com/http-la-ra-g/deflation-shiny-app){.btn .btn-secondary}
+:::
+:::
+
+::: {.g-col-4 .project-card}
+::: {.tag-list}
+<span class="tag">R</span>
+<span class="tag">Shiny</span>
+<span class="tag">Florestal</span>
+:::
+
+## Ajuste Múltiplo de Modelos Hipsométricos
+
+::: {.project-description}
+Este aplicativo Shiny realiza ajustes múltiplos de altura para dados de inventário florestal, testando diferentes modelos matemáticos para encontrar a melhor estimativa de altura das árvores.
+
+:::
+
+::: {.features-list}
+- Modelos personalizáveis via arquivo TXT
+- Visualização dos modelos carregados
+- Tabela de resultados interativa
+- Opções de exportação (CSV, Excel, Copy)
+:::
+
+::: {.button-container}
+[Ver APP →](https://lara-gualberto.shinyapps.io/ajuste_multiplo/){.btn .btn-primary}
+[Código →](https://github.com/http-la-ra-g/ajuste-multiplo){.btn .btn-secondary}
+:::
+:::
+
+::: {.g-col-4 .project-card}
+::: {.tag-list}
+<span class="tag">R</span>
+<span class="tag">Shiny</span>
+<span class="tag">Algoritmos</span>
+:::
+
+## Calculadora de Menor Caminho
+
+::: {.project-description}
+Este aplicativo Shiny implementa o algoritmo Floyd-Warshall para encontrar o caminho mais curto entre dois pontos em um grafo ponderado. O aplicativo oferece uma interface gráfica interativa para visualização e análise dos resultados.
+:::
+
+::: {.features-list}
+- Visualização interativa do grafo
+- Cálculo do caminho mais curto
+- Exibição da matriz de custos
+- Destaque visual do caminho encontrado
+- Opção para mostrar/ocultar custos nas arestas
+:::
+
+::: {.button-container}
+[Ver APP →](https://lara-gualberto.shinyapps.io/floyd_warshall/){.btn .btn-primary}
+[Código →](https://github.com/http-la-ra-g/floyd-warshall){.btn .btn-secondary}
+:::
+:::
+
+::: {.g-col-4 .project-card}
+::: {.tag-list}
+<span class="tag">R</span>
+<span class="tag">Shiny</span>
+<span class="tag">Florestal</span>
+<span class="tag">Modelagem</span>
+:::
+
+## Modelo de Afilamento
+
+::: {.project-description}
+Este aplicativo Shiny realiza o cálculo de sortimentos de árvores utilizando uma função de afilamento, 
+permitindo a obtenção de volumes por produto a partir de dados de inventário florestal.
+
+:::
+
+::: {.features-list}
+- Número de toras por produto para cada árvore
+- Volumes individuais por produto
+- Volume comercial total
+- Volume total da árvore
+- Volume de resíduos
+:::
+
+::: {.button-container}
+[Ver APP →](https://lara-gualberto.shinyapps.io/afilamento/){.btn .btn-primary}
+[Código →](https://github.com/http-la-ra-g/afilamento){.btn .btn-secondary}
+:::
+:::
+
+::: {.g-col-4 .project-card}
+::: {.tag-list}
+<span class="tag">R</span>
+<span class="tag">Otimização</span>
+<span class="tag">Algoritmos</span>
+:::
+
+## Algoritmo Genético
+
+::: {.project-description}
+Este algoritmo genético foi desenvolvido para encontrar os coeficientes (β0 e β1) de uma regressão linear simples que relaciona altura de árvores em função da idade. O modelo busca minimizar a soma dos erros quadráticos entre os valores observados e preditos.
+:::
+
+::: {.features-list}
+- Melhor β0 encontrado
+- Melhor β1 encontrado
+- Erro quadrático da melhor solução
+- Gráfico da evolução do erro ao longo das gerações
+:::
+
+::: {.button-container}
+[Código →](https://github.com/http-la-ra-g/genetic-algorithm){.btn .btn-secondary}
+:::
+:::
+
+::: {.g-col-4 .project-card}
+::: {.tag-list}
+<span class="tag">R</span>
+<span class="tag">Ecologia</span>
+<span class="tag">Análise</span>
+:::
+
+## Análise Fitossociológica
+
+::: {.project-description}
+Este script realiza análises fitossociológicas de dados florestais utilizando R.
+:::
+
+::: {.features-list}
+- Parâmetros calculados (Densidade, Frequência, Dominância, Valor de Cobertura e Valor de Importância)
+- Exportação de resultados
+:::
+
+::: {.button-container}
+[Código →](https://github.com/http-la-ra-g/fitossociologia){.btn .btn-secondary}
+:::
+:::
+
+::: {.g-col-4 .project-card}
+::: {.tag-list}
+<span class="tag">R</span>
+<span class="tag">Otimização</span>
+<span class="tag">Algoritmos</span>
+:::
+
+## Algoritmo Greedy
+
+::: {.project-description}
+Este projeto implementa um algoritmo guloso (greedy) para encontrar os coeficientes (β0 e β1) de uma regressão linear simples que relaciona altura de árvores em função da idade.
+:::
+
+::: {.features-list}
+- Melhor β0 encontrado
+- Melhor β1 encontrado
+- Erro quadrático da melhor solução
+:::
+
+::: {.button-container}
+[Código →](https://github.com/http-la-ra-g/Greedy){.btn .btn-secondary}
+:::
+:::
+
+::: {.g-col-4 .project-card}
+::: {.tag-list}
+<span class="tag">R</span>
+<span class="tag">Otimização</span>
+<span class="tag">PL</span>
+:::
+
+## Método Simplex
+
+::: {.project-description}
+Este projeto contém uma implementação do algoritmo Simplex para resolução de problemas de programação linear (PL) em R. O algoritmo resolve problemas de maximização na forma canônica.
+:::
+
+::: {.features-list}
+- Função de maximização
+- O valor ótimo da função objetivo
+- O tableau final com a solução ótima
+:::
+
+::: {.button-container}
+[Código →](https://github.com/http-la-ra-g/Simplex){.btn .btn-secondary}
+:::
+:::
+
+::: {.g-col-4 .project-card}
+::: {.tag-list}
+<span class="tag">R</span>
+<span class="tag">Otimização</span>
+<span class="tag">Algoritmos</span>
+:::
+
+## Simulated Annealing
+
+::: {.project-description}
+Este projeto implementa o algoritmo Simulated Annealing (SA) para otimização de parâmetros em um problema de regressão linear (b0 e b1), para a predição de altura de árvores a partir da idade. O SA é uma técnica de otimização meta-heurística inspirada no processo de recozimento em metalurgia.
+:::
+
+::: {.features-list}
+- Valores otimizados dos parâmetros (b0 e b1)
+- Erro mínimo encontrado
+- Temperatura final
+- Número de iterações realizadas
+- Gráfico com os dados e a reta ajustada
+:::
+
+::: {.button-container}
+[Código →](https://github.com/http-la-ra-g/Simulated-annealing){.btn .btn-secondary}
+:::
+:::
+
+:::
+
+:::
