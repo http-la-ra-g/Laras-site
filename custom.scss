@@ -166,3 +166,18 @@ $footer-bg: transparent;
     color: rgba($white, 0.8) !important;
   }
 }
+
+// Títulos
+h2, h3, h4 {
+  color: $ultra-violet;
+}
+
+
+.timeline {
+  border-left: 3px solid $ultra-violet !important;
+  padding-left: 1rem;
+}
+
+.g-col-5 > h2 {
+  text-align: center;
+}

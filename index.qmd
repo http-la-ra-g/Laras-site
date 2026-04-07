@@ -12,7 +12,7 @@ Lara Gualberto
 :::
 
 ::: {.hero-text}
-Engenheira Florestal, mestranda em Ciências Florestais e graduanda em Estatística. Apaixonada por análise de dados e desenvolvimento de soluções em R para o setor florestal.
+Engenheira Florestal, mestranda em Ciências Florestais. Apaixonada por análise de dados e desenvolvimento de soluções em R para o setor florestal.
 :::
 
 ::: {.hero-buttons}

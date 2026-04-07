@@ -70,227 +70,45 @@
     "text": "Este projeto implementa o algoritmo Simulated Annealing (SA) para otimização de parâmetros em um problema de regressão linear (b0 e b1), para a predição de altura de árvores a partir da idade. O SA é uma técnica de otimização meta-heurística inspirada no processo de recozimento em metalurgia.\n\n\n\nValores otimizados dos parâmetros (b0 e b1)\nErro mínimo encontrado\nTemperatura final\nNúmero de iterações realizadas\nGráfico com os dados e a reta ajustada\n\n\n\nCódigo →"
   },
   {
-    "objectID": "instructions/02-projects.html",
-    "href": "instructions/02-projects.html",
-    "title": "Página de Projetos",
-    "section": "",
-    "text": "Descrição: Aplicativo para deflação de séries temporais de preços\nFuncionalidades:\n\nUpload de arquivo Excel\nSeleção do índice de deflação\nCálculo automático da série deflacionada\nVisualização gráfica da série original vs deflacionada\n\nTecnologias: R, Shiny, tidyverse, readxl\n\n\n\n\n\nDescrição: Ferramenta para análise e seleção de modelos hipsométricos\nFuncionalidades:\n\nInput de dados de parcelas florestais\nSeleção de modelos para teste\nAnálise estatística comparativa\nRanking dos modelos por critérios de ajuste\nVisualização gráfica dos ajustes\n\nTecnologias: R, Shiny, estatística florestal\n\n\n\n\n\nDescrição: Implementação do algoritmo Floyd-Warshall\nFuncionalidades:\n\nInput da matriz de adjacência\nCálculo do menor caminho\nVisualização do grafo\nExibição da matriz de distâncias\n\nTecnologias: R, Shiny, igraph\n\n\n\n\n\n\nImagem representativa do projeto\nTítulo e descrição\nTags: R, Shiny, Estatística, Florestal\nLink para app ao vivo\nLink para código fonte no GitHub\n\n\n\n\n\nCategorias:\n\nAnálise de Dados\nEstatística Florestal\nAlgoritmos\n\nFiltros por tecnologia\nOrdenação por complexidade\n\n\n\n\n\nScreenshots dos apps\nGráficos de exemplo\nDiagramas explicativos\nÍcones das tecnologias\n\n\n\n\n\nQuarto\nBootstrap Grid\nIntegração shinyapps.io\nGitHub para código fonte"
-  },
-  {
-    "objectID": "instructions/02-projects.html#projetos-shiny-principais",
-    "href": "instructions/02-projects.html#projetos-shiny-principais",
-    "title": "Página de Projetos",
-    "section": "",
-    "text": "Descrição: Aplicativo para deflação de séries temporais de preços\nFuncionalidades:\n\nUpload de arquivo Excel\nSeleção do índice de deflação\nCálculo automático da série deflacionada\nVisualização gráfica da série original vs deflacionada\n\nTecnologias: R, Shiny, tidyverse, readxl\n\n\n\n\n\nDescrição: Ferramenta para análise e seleção de modelos hipsométricos\nFuncionalidades:\n\nInput de dados de parcelas florestais\nSeleção de modelos para teste\nAnálise estatística comparativa\nRanking dos modelos por critérios de ajuste\nVisualização gráfica dos ajustes\n\nTecnologias: R, Shiny, estatística florestal\n\n\n\n\n\nDescrição: Implementação do algoritmo Floyd-Warshall\nFuncionalidades:\n\nInput da matriz de adjacência\nCálculo do menor caminho\nVisualização do grafo\nExibição da matriz de distâncias\n\nTecnologias: R, Shiny, igraph"
-  },
-  {
-    "objectID": "instructions/02-projects.html#layout-dos-cards",
-    "href": "instructions/02-projects.html#layout-dos-cards",
-    "title": "Página de Projetos",
-    "section": "",
-    "text": "Imagem representativa do projeto\nTítulo e descrição\nTags: R, Shiny, Estatística, Florestal\nLink para app ao vivo\nLink para código fonte no GitHub"
-  },
-  {
-    "objectID": "instructions/02-projects.html#organização",
-    "href": "instructions/02-projects.html#organização",
-    "title": "Página de Projetos",
-    "section": "",
-    "text": "Categorias:\n\nAnálise de Dados\nEstatística Florestal\nAlgoritmos\n\nFiltros por tecnologia\nOrdenação por complexidade"
-  },
-  {
-    "objectID": "instructions/02-projects.html#elementos-visuais",
-    "href": "instructions/02-projects.html#elementos-visuais",
-    "title": "Página de Projetos",
-    "section": "",
-    "text": "Screenshots dos apps\nGráficos de exemplo\nDiagramas explicativos\nÍcones das tecnologias"
-  },
-  {
-    "objectID": "instructions/02-projects.html#tecnologias",
-    "href": "instructions/02-projects.html#tecnologias",
-    "title": "Página de Projetos",
-    "section": "",
-    "text": "Quarto\nBootstrap Grid\nIntegração shinyapps.io\nGitHub para código fonte"
-  },
-  {
-    "objectID": "instructions/00-geral.html",
-    "href": "instructions/00-geral.html",
-    "title": "Instruções Gerais do Projeto",
-    "section": "",
-    "text": "Home (index.qmd)\nProjetos (projects.qmd)\nSobre Mim (about.qmd)\nCurrículo (cv.qmd)\n\n\n\n\n\n\n\nLogo/Nome\nMenu de navegação\nLinks para redes sociais:\n\nGitHub\nLinkedIn\nEmail\nCurrículo lattes\n\n\n\n\n\n\nCréditos “Criado com Quarto”\nLinks para redes sociais\nCopyright\n\n\n\n\n\n\nPaleta de cores consistente\nTipografia moderna e legível\nLayout responsivo\nAnimações sutis\nDesign clean e profissional\n\n\n\n\n\nQuarto para geração do site\nBootstrap para responsividade\nSCSS/CSS personalizado\nJavaScript para interatividade (quando necessário)\n\n\n\n\n\nFinalizar estrutura base do Quarto\nImplementar design do header/footer\nDesenvolver cada página seguindo as instruções específicas\nAdicionar conteúdo e links dos projetos Shiny\nCriar versão PDF do currículo\nTestar responsividade\nOtimizar SEO\nDeploy"
-  },
-  {
-    "objectID": "instructions/00-geral.html#estrutura-do-site",
-    "href": "instructions/00-geral.html#estrutura-do-site",
-    "title": "Instruções Gerais do Projeto",
-    "section": "",
-    "text": "Home (index.qmd)\nProjetos (projects.qmd)\nSobre Mim (about.qmd)\nCurrículo (cv.qmd)"
-  },
-  {
-    "objectID": "instructions/00-geral.html#elementos-comuns",
-    "href": "instructions/00-geral.html#elementos-comuns",
-    "title": "Instruções Gerais do Projeto",
-    "section": "",
-    "text": "Logo/Nome\nMenu de navegação\nLinks para redes sociais:\n\nGitHub\nLinkedIn\nEmail\nCurrículo lattes\n\n\n\n\n\n\nCréditos “Criado com Quarto”\nLinks para redes sociais\nCopyright"
-  },
-  {
-    "objectID": "instructions/00-geral.html#estilo-global",
-    "href": "instructions/00-geral.html#estilo-global",
-    "title": "Instruções Gerais do Projeto",
-    "section": "",
-    "text": "Paleta de cores consistente\nTipografia moderna e legível\nLayout responsivo\nAnimações sutis\nDesign clean e profissional"
-  },
-  {
-    "objectID": "instructions/00-geral.html#tecnologias-base",
-    "href": "instructions/00-geral.html#tecnologias-base",
-    "title": "Instruções Gerais do Projeto",
-    "section": "",
-    "text": "Quarto para geração do site\nBootstrap para responsividade\nSCSS/CSS personalizado\nJavaScript para interatividade (quando necessário)"
-  },
-  {
-    "objectID": "instructions/00-geral.html#próximos-passos",
-    "href": "instructions/00-geral.html#próximos-passos",
-    "title": "Instruções Gerais do Projeto",
-    "section": "",
-    "text": "Finalizar estrutura base do Quarto\nImplementar design do header/footer\nDesenvolver cada página seguindo as instruções específicas\nAdicionar conteúdo e links dos projetos Shiny\nCriar versão PDF do currículo\nTestar responsividade\nOtimizar SEO\nDeploy"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": " ",
     "section": "",
-    "text": "Olá, eu sou a Lara!\n\nSou uma Engenheira Florestal apaixonada por dados e tecnologia, atualmente expandindo meus horizontes na interseção entre ciências florestais e estatística.\n\n\n\n\n\n\n\n\n\n\n\nMinha jornada começou na Engenharia Florestal em 2018, onde descobri minha paixão por economia e manejo florestal. Atualmente, estou cursando mestrado em Ciências Florestais, com foco em economia florestal, além de ser graduanda em Estatística, ambos pela Universidade Federal de Lavras (UFLA).\nEsta combinação de formações me permite desenvolver uma perspectiva diferenciada na análise de dados, unindo o conhecimento técnico do setor com metodologias estatísticas robustas.\n\n\n\n\nEconomia Florestal\nManejo Florestal\nAnálise de Dados\nPesquisa Acadêmica\nDesenvolvimento de Aplicações Shiny\nTeoria de Opções Reais\n\n\n\n\n\n\n\n\nEm andamento\nFoco: Análise da viabilidade financeira estocástica do cultivo de mogno africano com a metodologia de Opções Reais.\n\n\n\nEm andamento\nAprofundamento em métodos estatísticos e análise de dados\n\n\n\nConcluído\nBase sólida em ciências florestais, economia florestal e manejo florestal\n\n\n\n\n\n\nSou membro ativo do R-Ladies e PyLadies (capítulo Lavras-MG), uma organização global que promove a diversidade de gênero na comunidade R e Python. Através desta participação, contribuo para tornar a comunidade de programação em R e Python mais inclusiva e acessível."
+    "text": "Olá, eu sou a Lara!\n\nEngenheira Florestal apaixonada por dados e tecnologia, atualmente expandindo meus horizontes na interseção entre ciências florestais e estatística.\n\n\n\n\n\n\n\n\n\n\n\nMinha jornada começou na Engenharia Florestal em 2018, onde descobri minha paixão por economia e manejo florestal. Atualmente, estou cursando mestrado em Ciências Florestais, com foco em economia florestal, pela Universidade Federal de Lavras (UFLA).\nEssa formação me permite desenvolver uma perspectiva diferenciada na análise de dados, unindo o conhecimento técnico do setor a metodologias quantitativas robustas.\n\n\n\n\n\nEngenheira Júnior de Planejamento Estratégico e Inteligência Florestal\n\nResponsável pelo planejamento do abastecimento das fábricas nos horizontes de médio e longo prazo.\n\n\n\n\nEstagiária\n\nAnálise de dados de experimentos e elaboração de relatórios técnicos e científicos.\n\n\n\n\n\n\n\n\n\nEm andamento\nFoco: Análise da viabilidade financeira estocástica do cultivo de mogno africano com a metodologia de Opções Reais.\n\n\n\nPausado\nAprofundamento em métodos estatísticos e análise de dados\n\n\n\nConcluído\nBase sólida em ciências florestais, economia florestal e manejo florestal\n\n\n\n\nEconomia Florestal\nManejo Florestal\nAnálise de Dados\nPesquisa Operacional\nPlanejamento Florestal\nDesenvolvimento de Aplicações Shiny\nTeoria de Opções Reais"
   },
   {
     "objectID": "about.html#minha-trajetória",
     "href": "about.html#minha-trajetória",
     "title": " ",
     "section": "",
-    "text": "Minha jornada começou na Engenharia Florestal em 2018, onde descobri minha paixão por economia e manejo florestal. Atualmente, estou cursando mestrado em Ciências Florestais, com foco em economia florestal, além de ser graduanda em Estatística, ambos pela Universidade Federal de Lavras (UFLA).\nEsta combinação de formações me permite desenvolver uma perspectiva diferenciada na análise de dados, unindo o conhecimento técnico do setor com metodologias estatísticas robustas."
+    "text": "Minha jornada começou na Engenharia Florestal em 2018, onde descobri minha paixão por economia e manejo florestal. Atualmente, estou cursando mestrado em Ciências Florestais, com foco em economia florestal, pela Universidade Federal de Lavras (UFLA).\nEssa formação me permite desenvolver uma perspectiva diferenciada na análise de dados, unindo o conhecimento técnico do setor a metodologias quantitativas robustas."
   },
   {
-    "objectID": "about.html#áreas-de-interesse",
-    "href": "about.html#áreas-de-interesse",
+    "objectID": "about.html#experiências-profissionais",
+    "href": "about.html#experiências-profissionais",
     "title": " ",
     "section": "",
-    "text": "Economia Florestal\nManejo Florestal\nAnálise de Dados\nPesquisa Acadêmica\nDesenvolvimento de Aplicações Shiny\nTeoria de Opções Reais"
+    "text": "Engenheira Júnior de Planejamento Estratégico e Inteligência Florestal\n\nResponsável pelo planejamento do abastecimento das fábricas nos horizontes de médio e longo prazo.\n\n\n\n\nEstagiária\n\nAnálise de dados de experimentos e elaboração de relatórios técnicos e científicos."
   },
   {
     "objectID": "about.html#formação-acadêmica",
     "href": "about.html#formação-acadêmica",
     "title": " ",
     "section": "",
-    "text": "Em andamento\nFoco: Análise da viabilidade financeira estocástica do cultivo de mogno africano com a metodologia de Opções Reais.\n\n\n\nEm andamento\nAprofundamento em métodos estatísticos e análise de dados\n\n\n\nConcluído\nBase sólida em ciências florestais, economia florestal e manejo florestal"
+    "text": "Em andamento\nFoco: Análise da viabilidade financeira estocástica do cultivo de mogno africano com a metodologia de Opções Reais.\n\n\n\nPausado\nAprofundamento em métodos estatísticos e análise de dados\n\n\n\nConcluído\nBase sólida em ciências florestais, economia florestal e manejo florestal\n\n\n\n\nEconomia Florestal\nManejo Florestal\nAnálise de Dados\nPesquisa Operacional\nPlanejamento Florestal\nDesenvolvimento de Aplicações Shiny\nTeoria de Opções Reais"
   },
   {
-    "objectID": "about.html#comunidade",
-    "href": "about.html#comunidade",
+    "objectID": "about.html#áreas-de-interesse",
+    "href": "about.html#áreas-de-interesse",
     "title": " ",
     "section": "",
-    "text": "Sou membro ativo do R-Ladies e PyLadies (capítulo Lavras-MG), uma organização global que promove a diversidade de gênero na comunidade R e Python. Através desta participação, contribuo para tornar a comunidade de programação em R e Python mais inclusiva e acessível."
+    "text": "Economia Florestal\nManejo Florestal\nAnálise de Dados\nPesquisa Operacional\nPlanejamento Florestal\nDesenvolvimento de Aplicações Shiny\nTeoria de Opções Reais"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": " ",
     "section": "",
-    "text": "Lara Gualberto\n\n\nEngenheira Florestal, mestranda em Ciências Florestais e graduanda em Estatística. Apaixonada por análise de dados e desenvolvimento de soluções em R para o setor florestal.\n\n\n👋 SOBRE MIM 👩‍💻 VER PROJETOS 📄 CURRÍCULO\n\n\n\n\n\n\n\n\n\n\n\n\n© 2024 Lara Reis Gualberto\n\n\nFeito com ♥ usando Quarto"
-  },
-  {
-    "objectID": "instructions/01-home.html",
-    "href": "instructions/01-home.html",
-    "title": "Página Inicial (Home)",
-    "section": "",
-    "text": "Nome “Lara Gualberto” em destaque como título principal\nBreve descrição profissional\nLinks para as outras seções do site com ícones representativos\n\n\n\n\n\nDesign limpo e moderno\nHero section com foto profissional\nGrid de cards para navegação entre seções\n\n\n\n\nLinks com ícones: - 🏠 Home - 👩‍💻 Projetos - 👋 Sobre - 📄 Currículo - 📱 Redes Sociais: -  GitHub -  LinkedIn -  Email -  Currículo Lattes\n\n\n\nCriar/adicionar na pasta images: - github-icon.png - Ícone do GitHub em branco - linkedin-icon.png - Ícone do LinkedIn em branco - email-icon.png - Ícone de email em branco - lattes-icon.png - Ícone do Lattes em branco - home-icon.png - Ícone de casa - projects-icon.png - Ícone de projetos - about-icon.png - Ícone de perfil - cv-icon.png - Ícone de documento\n\n\n\n\nTamanho: 24x24px\nCor: branco para o header (com hover em #C1CAD6)\nFormato: PNG com fundo transparente\nEstilo: Consistente e minimalista\n\n\n\n\n\nCréditos “Feito com Quarto” com logo do Quarto\nLinks para redes sociais com os mesmos ícones do header\nCopyright com ano atual\n\n\n\n\n\nQuarto\nBootstrap para layout responsivo\nFontes personalizadas para destaque do nome\nCSS para animações nos ícones e hover effects"
-  },
-  {
-    "objectID": "instructions/01-home.html#elementos-principais",
-    "href": "instructions/01-home.html#elementos-principais",
-    "title": "Página Inicial (Home)",
-    "section": "",
-    "text": "Nome “Lara Gualberto” em destaque como título principal\nBreve descrição profissional\nLinks para as outras seções do site com ícones representativos"
-  },
-  {
-    "objectID": "instructions/01-home.html#layout",
-    "href": "instructions/01-home.html#layout",
-    "title": "Página Inicial (Home)",
-    "section": "",
-    "text": "Design limpo e moderno\nHero section com foto profissional\nGrid de cards para navegação entre seções"
-  },
-  {
-    "objectID": "instructions/01-home.html#header",
-    "href": "instructions/01-home.html#header",
-    "title": "Página Inicial (Home)",
-    "section": "",
-    "text": "Links com ícones: - 🏠 Home - 👩‍💻 Projetos - 👋 Sobre - 📄 Currículo - 📱 Redes Sociais: -  GitHub -  LinkedIn -  Email -  Currículo Lattes"
-  },
-  {
-    "objectID": "instructions/01-home.html#ícones-necessários",
-    "href": "instructions/01-home.html#ícones-necessários",
-    "title": "Página Inicial (Home)",
-    "section": "",
-    "text": "Criar/adicionar na pasta images: - github-icon.png - Ícone do GitHub em branco - linkedin-icon.png - Ícone do LinkedIn em branco - email-icon.png - Ícone de email em branco - lattes-icon.png - Ícone do Lattes em branco - home-icon.png - Ícone de casa - projects-icon.png - Ícone de projetos - about-icon.png - Ícone de perfil - cv-icon.png - Ícone de documento"
-  },
-  {
-    "objectID": "instructions/01-home.html#estilo-dos-ícones",
-    "href": "instructions/01-home.html#estilo-dos-ícones",
-    "title": "Página Inicial (Home)",
-    "section": "",
-    "text": "Tamanho: 24x24px\nCor: branco para o header (com hover em #C1CAD6)\nFormato: PNG com fundo transparente\nEstilo: Consistente e minimalista"
-  },
-  {
-    "objectID": "instructions/01-home.html#footer",
-    "href": "instructions/01-home.html#footer",
-    "title": "Página Inicial (Home)",
-    "section": "",
-    "text": "Créditos “Feito com Quarto” com logo do Quarto\nLinks para redes sociais com os mesmos ícones do header\nCopyright com ano atual"
-  },
-  {
-    "objectID": "instructions/01-home.html#tecnologias",
-    "href": "instructions/01-home.html#tecnologias",
-    "title": "Página Inicial (Home)",
-    "section": "",
-    "text": "Quarto\nBootstrap para layout responsivo\nFontes personalizadas para destaque do nome\nCSS para animações nos ícones e hover effects"
-  },
-  {
-    "objectID": "instructions/03-about.html",
-    "href": "instructions/03-about.html",
-    "title": "Página Sobre Mim",
-    "section": "",
-    "text": "Formação acadêmica:\n\nEngenharia Florestal\nMestrado em curso (foco em riscos financeiros e mogno africano)\nGraduação em Estatística em andamento\n\n\n\n\n\n\nHistória profissional\nÁreas de interesse\nHabilidades técnicas\nProjetos destacados\n\n\n\n\n\nFoto profissional\nÍcones para representar habilidades\nTimeline de formação acadêmica\nGráficos/visualizações demonstrando áreas de expertise\n\n\n\n\n\nTom pessoal e profissional\nDestaque para a conexão entre Engenharia Florestal e Estatística\nÊnfase na pesquisa atual sobre mogno africano\n\n\n\n\n\nQuarto\nElementos interativos (se necessário)\nLayout responsivo"
-  },
-  {
-    "objectID": "instructions/03-about.html#conteúdo-principal",
-    "href": "instructions/03-about.html#conteúdo-principal",
-    "title": "Página Sobre Mim",
-    "section": "",
-    "text": "Formação acadêmica:\n\nEngenharia Florestal\nMestrado em curso (foco em riscos financeiros e mogno africano)\nGraduação em Estatística em andamento"
-  },
-  {
-    "objectID": "instructions/03-about.html#seções",
-    "href": "instructions/03-about.html#seções",
-    "title": "Página Sobre Mim",
-    "section": "",
-    "text": "História profissional\nÁreas de interesse\nHabilidades técnicas\nProjetos destacados"
-  },
-  {
-    "objectID": "instructions/03-about.html#elementos-visuais",
-    "href": "instructions/03-about.html#elementos-visuais",
-    "title": "Página Sobre Mim",
-    "section": "",
-    "text": "Foto profissional\nÍcones para representar habilidades\nTimeline de formação acadêmica\nGráficos/visualizações demonstrando áreas de expertise"
-  },
-  {
-    "objectID": "instructions/03-about.html#estilo",
-    "href": "instructions/03-about.html#estilo",
-    "title": "Página Sobre Mim",
-    "section": "",
-    "text": "Tom pessoal e profissional\nDestaque para a conexão entre Engenharia Florestal e Estatística\nÊnfase na pesquisa atual sobre mogno africano"
-  },
-  {
-    "objectID": "instructions/03-about.html#tecnologias",
-    "href": "instructions/03-about.html#tecnologias",
-    "title": "Página Sobre Mim",
-    "section": "",
-    "text": "Quarto\nElementos interativos (se necessário)\nLayout responsivo"
+    "text": "Lara Gualberto\n\n\nEngenheira Florestal, mestranda em Ciências Florestais. Apaixonada por análise de dados e desenvolvimento de soluções em R para o setor florestal.\n\n\n👋 SOBRE MIM 👩‍💻 VER PROJETOS 📄 CURRÍCULO\n\n\n\n\n\n\n\n\n\n\n\n\n© 2026 Lara Reis Gualberto\n\n\nFeito com ♥ usando Quarto"
   }
 ]
